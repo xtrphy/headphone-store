@@ -11,7 +11,7 @@ const Input = () => {
                 placeholder="Поиск"
             />
 
-            <button className="bg-main-green p-[9px] rounded-md text-white cursor-pointer">
+            <button className="bg-main-green hover:bg-hover-green transition-colors duration-150 p-[9px] rounded-md text-white cursor-pointer">
                 <SearchIcon size={17.5} strokeWidth={2.5} />
             </button>
 
