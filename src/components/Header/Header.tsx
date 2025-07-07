@@ -4,7 +4,7 @@ import Quantity from "../Cart/Quantity";
 import Link from "next/link";
 import LoginSign from "../LoginSign/LoginSign";
 
-const Header = () => {
+const Header = ({ onLoginClick }: { onLoginClick: () => void }) => {
     return (
         <header className="flex items-center justify-between px-[85px] py-[50px]">
 
@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="flex gap-[23px]">
                     <Quantity />
 
-                    <LoginSign />
+                    <LoginSign onClick={onLoginClick} />
                 </div>
                 
             </div>

@@ -30,7 +30,7 @@ const Footer = () => {
                             placeholder="Email address"
                         />
 
-                        <button type="submit" className="flex items-center justify-center bg-main-green hover:bg-hover-green transition-colors duration-150 p-[9px] h-[50px] w-[50px] rounded-md text-white cursor-pointer">
+                        <button type="button" className="flex items-center justify-center bg-main-green hover:bg-hover-green transition-colors duration-150 p-[9px] h-[50px] w-[50px] rounded-md text-white cursor-pointer">
                             <IoIosArrowForward size={20} color="#fff" />
                         </button>
 
