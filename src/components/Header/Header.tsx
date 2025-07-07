@@ -6,7 +6,7 @@ import LoginSign from "../LoginSign/LoginSign";
 
 const Header = () => {
     return (
-        <header className="flex items-center justify-between h-30 px-[85px] py-[63px]">
+        <header className="flex items-center justify-between px-[85px] py-[50px]">
 
             <h2 className="text-4xl italic">
                 <Link href="/">
