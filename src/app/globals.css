@@ -7,6 +7,10 @@ body {
     font-family: var(--font-montserrat);
 }
 
+.link {
+    @apply hover:underline;
+}
+
 @theme {
     --color-main-green: #10B981;
     --color-hover-green: #0c9467;
